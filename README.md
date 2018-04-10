@@ -284,7 +284,7 @@ var item1 = {email: 'foo1@example.com', name: 'Foo 1', age: 10};
 var item2 = {email: 'foo2@example.com', name: 'Foo 2', age: 20};
 var item3 = {email: 'foo3@example.com', name: 'Foo 3', age: 30};
 
-Account.create([item1, item2, item3], function (err, acccounts) {
+Account.create([item1, item2, item3], function (err, accounts) {
   console.log('created 3 accounts in DynamoDB', accounts);
 });
 ```
